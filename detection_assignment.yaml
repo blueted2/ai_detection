@@ -1,6 +1,7 @@
-path: ../datasets/custom/
-train: train/images
-val: train/images
+path: ../datasets/detection_assignment/
+train: train.txt
+val: val.txt
+test: test/images
 
 # Classes
 names:
