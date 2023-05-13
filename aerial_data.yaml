@@ -1,0 +1,15 @@
+path: ../datasets/custom/
+train: train/images
+val: train/images
+
+# Classes
+names:
+  0: "small-vehicle"
+  1: "large-vehicle"
+  2: "ship"
+  3: "tennis-court"
+  4: "swimming-pool"
+  5: "basketball-court"
+  6: "harbor"
+  7: "bridge"
+  8: "soccer-ball-field"
