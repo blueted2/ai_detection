@@ -8,8 +8,6 @@ This does require the "detection_assignment.zip" dataset, which for the sake of 
 
 This dataset was created from the provided "test.zip" and "train.zip" datasets. 
 As the provided label format was not compatible with yolov5, we created a conversion script [convert.py](preparation/convert.py) to convert the labels to yolov5 format. 
-This script also splits the dataset into train and test sets, 
-and creates a custom dataset configuration file [detection.yaml](preparation/detection.yaml) for use with yolov5.
 
 We then split the training set into a training and validation set using text files "train.txt" and "val.txt" as described in the yolov5 documentation, 
 which we generated using another simple script [split.py](preparation/split.py).
